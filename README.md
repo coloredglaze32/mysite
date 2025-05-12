@@ -5,7 +5,7 @@
 ### 使用终端
 
 * 打开终端
-* 进入某个目
+* 进入某个目录
 
 ```python
 django-admin startproject 项目名称
