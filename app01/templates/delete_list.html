@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>删除用户</h1>
+    <form action="/delete/list" method="post">
+        {% csrf_token %}
+        <input type="text" name="id" placeholder="请输入ID">
+        <input type="submit" value="提交" onclick="return confirm('确定要删除吗？')">
+    </form>
+</body>
+</html>
